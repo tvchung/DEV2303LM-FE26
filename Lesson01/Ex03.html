@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị hình ảnh, liên kết</title>
+</head>
+<body>
+    <h1>Hiển thị hình ảnh, liên kết</h1>
+    <hr/>
+    <p>
+        Hiển thị hình ảnh:
+    </p>
+    <pre>
+        - img: để hiển thị hình ảnh
+            + attr: 2 thuộc tính cơ bản
+                ++ src: url
+                ++ alt: nội dung
+        -> url: đường dẫn đến file ảnh (jpg, png, ...)
+            + Đường dẫn tuyệt đối: 
+                [giao thức]:// domain / [pathfolder]/ pathFile
+                https://devmaster.edu.vn/images/logo.png 
+            + Đường dẫn tương đối: tính từ vị trí lưu file html 
+                folder/file 
+                ví dụ: ex03.html
+                    images/logo.png
+
+                ví dụ: từ file page1.html 
+                    hiển thị hình ảnh => đường dẫn tương đối:
+                        ../images/logo.png
+    </pre>
+    <p>
+        Sử dụng đường dẫn tuyệt đối: <br>
+        <img src="https://devmaster.edu.vn/images/logo.png"
+             alt="Logo Devmaster Academy">
+    </p>
+    <p>
+        Sử dụng đường dẫn tương đối: <br>
+        <img src="images/logo.png" 
+            alt="Logo Devmaster Academy">
+    </p>
+    <img src="images/devmaster-net.jpg"
+     alt="Aspnet core" style="width:100%">
+</body>
+</html>
