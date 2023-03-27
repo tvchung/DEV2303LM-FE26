@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo menu bằng HTML có ul li</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #ccc;
+        }
+        /* thiết lập quy tăc cho ul  */
+        ul{
+            margin: 1rem;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(210, 79, 19);
+            border-radius: 5px;
+        }
+        ul a{
+            display: block;
+            padding: 0.5rem;
+            /* padding: 1.5rem; */
+            text-decoration: none;
+            color: yellow;
+            border-left: 1px solid #fff;
+            border-right: 1px solid #fff;
+            /* border-top: 1px solid #fff;
+            border-bottom: 1px solid #fff; */
+        }
+        ul li:first-child a,
+        ul li:last-child a{
+            border-left: none;
+            border-right: none;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <!-- Tạo menu sử dụng ul , li  -->
+    <ul>
+        <li><a href="" title="Tramg chủ">Tramg chủ</a></li>
+        <li><a href="" title="Tin tức">Tin tức</a></li>
+        <li><a href="" title="Sản phẩm">Sản phẩm</a></li>
+        <li><a href="" title="Khóa học">Khóa học</a></li>
+        <li><a href="" title="Liên hệ">Liên hệ</a></li>
+        <li><a href="" title="Đăng ký">Đăng ký</a></li>
+        <li><a href="" title="Đăng nhập">Đăng nhập</a></li>
+    </ul>
+</body>
+</html>
