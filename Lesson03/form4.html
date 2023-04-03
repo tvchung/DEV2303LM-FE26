@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh mục chất liệu</title>
+    <style>
+        body{
+            background-color: #ccc;
+        }
+        form{
+            background-color: #fff;
+            margin: 1rem auto;
+            width: 300px;
+        }
+        table{
+            width: 100%;
+            border: 1px solid #000;
+        }
+        thead{
+            background-color: red;
+        }
+        th{
+            text-align: left;
+            padding: .5rem;
+            color: #fff;
+        }
+        td{
+            padding:.25rem 1rem;
+        }
+        td label{
+            display: block;
+        }
+        td input[type="text"],textarea{
+            width: calc(100% - 1rem);
+            border-radius: 0;
+            border:1px solid #ccc;
+            padding: .25rem;
+        }
+        tfoot td{
+            border-top: 1px solid #ccc;
+            text-align: right;
+            padding: .5rem 1rem;
+        }
+        tfoot input{
+            border: 1px solid #ccc;
+            border-radius: 0;
+            padding: .15rem 1rem;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Thông tin danh mục chất liệu</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="title">Tên (Title)</label>
+                        <input type="text" name="title" id="title">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="keyword">Từ khóa SEO</label>
+                        <input type="text" name="keyword" id="keyword">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="description">Mo tả SEO</label>
+                        <input type="text" name="description" id="description">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ghiChu">Ghi chú</label>
+                        <textarea name="ghiChu" id="ghiChu"rows="3"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <input type="reset" value="Nhập lại">
+                        <input type="submit" value="Ghi lại">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ ngay với chuyên gia</title>
+    <style>
+        form{
+            margin: 1rem 10%;
+        }
+        input, textarea{
+            width: 100%;
+            border:1px solid #ccc;
+            border-radius: 0;
+            padding: .5rem;
+        }
+        img{
+            width: 70%;
+        }
+        button{
+            padding: .5rem 2rem;
+            border:0;
+            border-radius: 0;
+            background-color: rgb(50, 196, 245);
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="frmLienHe" name="frmLien" action="">
+        <table width="100%" >
+            <tbody>
+                <tr>
+                    <td> 
+                        <h3>Liên hệ ngay với chuyên gia</h3>
+                    </td>
+                    <td rowspan="7" align="center">
+                        <img src="images/lien-he.jfif" alt="Liên hệ ngay với chuyên gia">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="hoTen" id="hoTen" placeholder="Họ tên">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="tel" name="dienThoai" id="dienThoai" placeholder="Điện thoại">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="diaChi" id="diaChi" placeholder="Địa chỉ">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea rows="4">Nội dung</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <button>Gửi thông tin</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

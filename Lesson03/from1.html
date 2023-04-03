@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo phần tử trên form </title>
+</head>
+<body>
+    <h1>Demo phần tử trên form</h1>
+    <pre>
+        * form: 
+            - id ; name; action; method; enctype
+        * input: 
+            - type: 
+                + text 
+                + password
+                + email
+                + number
+                + range
+                + checkbox
+                + radio
+                + tel
+                + date
+                + color
+                + file 
+                + month
+                + week
+                + ... 
+            - id, name, required, checked, value, placeHolder, data-id, data-value 
+        * select 
+            option 
+        * textarea 
+
+    </pre>
+    <form id="frm" name="frm" action="">
+        <div>
+            <label for="txt">Text</label>
+            <input type="text" id="txt" name="txt" placeholder="Nhập dữ liệu...">
+        </div>
+        <div>
+            password:
+            <input type="password" name="pass" id="pass" placeholder="Nhâp mật khẩu..." required>
+        </div>
+        <div>
+            email:
+            <input type="email" name="email" id="email" placeholder="yourname@domain.com">
+        </div>
+        <div>
+            tel:
+            <input type="tel" name="dienThoai" id="dienThoai" pattern="" placeholder="Nhập số điện thoại của bản....">
+        </div>
+        <div>
+            radio:
+            <input type="radio" name="gt" id="gtNam" checked>
+            <label for="gtNam">Nam</label>
+            <input type="radio" name="gt" id="gtNu">
+            <label for="gtNu">Nữ</label>
+            <input type="radio" name="gt" id="gtKhac">
+            <label for="gtKhac">Khác</label>
+        </div>
+        <div>
+            checkbox:
+            <input type="checkbox" name="soThich" id="ckBongDa" checked />
+            <label for="ckBongDa">Bóng đá</label>
+            <input type="checkbox" name="soThich" id="ckBongChuyen"  />
+            <label for="ckBongChuyen">Bóng chuyền</label>
+            <input type="checkbox" name="soThich" id="ckBoiLoi"  />
+            <label for="ckBoiLoi">Bơi lội</label>
+        </div>
+        <div>
+            Date:
+            <input type="date" name="ngaySinh" id="ngaySinh">
+
+            <input type="datetime" name="ngaySinh" id="ngaySinh">
+            <input type="datetime-local" name="ngaySinh" id="ngaySinh">
+        </div>
+        <div>
+            Color:
+            <input type="color" name="chonMau" id="chonMau">
+        </div>
+        <div>
+            number:
+            <input type="number" name="age" id="age" min="0" max="100">
+        </div>
+        <div>
+            Range:
+            <input type="range" name="ran" id="ran" min="0" max="10" value="2">
+        </div>
+        <div>
+            Search:
+            <input type="search" name="timKiem" id="timKiem" placeholder="Nhập từ khóa...">
+        </div>
+        <div>
+            <input type="submit" value="Submit" name="btnSubmit" id="btnSubmit">
+            <input type="reset" value="Reset" id="btnReset" name="btnReset">
+            <button>Click here</button>
+            <button type="button">Click here</button>
+            <input type="button" value="Non submit">
+        </div>
+
+        <div>
+            Chọn:
+            <select name="chonTinh" id="chonTinh">
+                <option value="1">Hà nội</option>
+                <option value="2">Tp. HCM</option>
+                <option value="3">Đà nẵng</option>
+            </select>
+        </div>
+        <div>
+            textarea 
+            <textarea name="diaChi" id="diaChi" cols="40" rows="5"></textarea>
+        </div>
+        <div>
+            chọn ảnh:
+            <input type="file" name="chonAnh" id="chonAnh">
+        </div>
+    </form>
+</body>
+</html>

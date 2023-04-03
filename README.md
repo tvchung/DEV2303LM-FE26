@@ -83,6 +83,36 @@ Phần 2: ReactJS
         ==> 2 tuần => đánh giá: 
         ==> Chứng nhận hoàn thành (Devmaster)
 
+#=============
+#Lesson03 - Làm việc với Form trong HTML5
+- Review: Table
+- Biểu mẫu nhập liệu <form>
+Input kiểu text
+Input kiể password
+Input kiểu ẩn (hidden)
+Input kiểu checkbox
+Input kiểu radio
+Input kiểu button
+Input kiểu button reset
+Input kiểu button submit
+Input kiểu image
+Input kiểu file (upload)
+Input kiểu color
+Input kiểu date
+Input kiểu datetime
+Input kiểu datetime-local
+Input kiểu email
+Input kiểu month
+Input kiểu number
+Input kiểu range
+Input kiểu search
+Input kiểu tell
+Input kiểu time
+Input kiểu url
+Input kiểu week
+Thẻ lựa chọn danh sách thu gọn <select><option>
+
+
 
         
 
