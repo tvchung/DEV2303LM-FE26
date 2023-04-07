@@ -86,7 +86,7 @@ Phần 2: ReactJS
 #=============
 #Lesson03 - Làm việc với Form trong HTML5
 - Review: Table
-- Biểu mẫu nhập liệu <form>
+- Biểu mẫu nhập liệu form>
 Input kiểu text
 Input kiể password
 Input kiểu ẩn (hidden)
@@ -110,7 +110,24 @@ Input kiểu tell
 Input kiểu time
 Input kiểu url
 Input kiểu week
-Thẻ lựa chọn danh sách thu gọn <select><option>
+Thẻ lựa chọn danh sách thu gọn select>option>
+## Lesson04 - Các thẻ bố cục nội dung
+Thẻ xác định khu vực phân chia hoặc bố cục trong văn bản div>
+Thẻ xác định nhãn label>
+Thẻ nhóm các inline trong văn bản span>
+Thẻ định nghĩa bài viết hoặc nội dung riêng biệt acticle>
+Thẻ định nghĩa nội dung bên ngoài nội dung chính aside>
+Hiển thị nội dung chi tiết details>
+Hiển thị tiêu đề cho phần details summary>
+Định nghĩa khu vực phần đầu của trang header>
+Định nghĩa điều hướng danh mục hoặc menu nav>
+Xác định khu vực hoặc vùng bao trong văn bản section>
+Xác đinh khu vực cuối cùng của trang footer>
+Thẻ mô tả tiến trình làm việc progress>
+Định nghĩa một danh sách tùy chọn datalist>
+Hiển thị player nghe nhạc online audio>
+Hiển thị xem video online video>
+Hiển thị đồ họa canvas
 
 
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ phân chia khu vực nội dung</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #ccc;
+        }
+        form{
+            margin: 1rem auto;
+            width: 300px;
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        .form-group{
+            display: flex;
+            margin: .5rem 0;
+        }
+        .form-group > label {
+            display: block;
+            width: 80px;
+        }
+        .form-group > div {
+            width: 220px;
+        }
+        .form-group > div input[type="text"],
+        .form-group > div input[type="password"]
+        {
+            width: calc(100% - 30px);
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <h2>ĐĂNG NHẬP HỆ THỐNG</h2>
+        </div>
+        <div class="form-group">
+            <label for="taiKhoan">Tài khoản</label>
+            <div>
+                <input type="text" name="taiKhoan" id="taiKhoan">
+                <span id="errTaiKhoan" class="error">(*)</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="matKhau">Mật khẩu</label>
+            <div>
+                <input type="password" name="matKhau" id="matKhau">
+                <span id="errMatKhau" class="error">(*)</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for=""></label>
+            <div>
+                <input type="checkbox" name="ckGhiNho" id="ckGhiNho">
+                <label for="ckGhiNho">Ghi nhớ</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for=""></label>
+            <div>
+                <input type="submit" value="Đăng nhập" id="btnDangNhap" name="btnDangNhap" class="btn btn-primary">
+                <input type="reset" value="Làm lại" id="btnLamLai" name="btnLamLai" class="btn btn-secondary">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
